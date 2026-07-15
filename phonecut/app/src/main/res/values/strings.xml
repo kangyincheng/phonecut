@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PhoneCut</string>
+    <string name="edit_video">视频剪辑</string>
+    <string name="subtitle">字幕</string>
+    <string name="import_video">导入视频</string>
+    <string name="add_subtitle">添加字幕</string>
+    <string name="auto_subtitle">自动识别字幕</string>
+    <string name="import_subtitle">导入字幕</string>
+    <string name="input_subtitle">手动输入</string>
+    <string name="scroll_up_down">上下滚动</string>
+    <string name="scroll_left_right">左右滚动</string>
+    <string name="static_subtitle">静态字幕</string>
+    <string name="font_size">字号</string>
+    <string name="font_color">字体颜色</string>
+    <string name="background_color">背景颜色</string>
+    <string name="subtitle_style">字幕样式</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="export">导出</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="subtitle_text">字幕内容</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="scroll_speed">滚动速度</string>
+    <string name="recognizing">正在识别...</string>
+    <string name="no_video">请先选择视频</string>
+    <string name="select_video">选择视频</string>
+</resources>
