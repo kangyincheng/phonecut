@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Movie Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>Movie Editor</h1>
+    </header>
+    <div class="main-area">
+      <div class="preview-container" id="previewContainer">
+        <video id="videoPlayer" class="video-preview" playsinline></video>
+        <div class="placeholder" id="placeholder">
+          <div class="placeholder-icon">🎬</div>
+          <p>点击下方按钮导入视频</p>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="transport-controls">
+          <button class="btn btn-icon" id="btnPlay" title="播放/暂停">▶</button>
+          <button class="btn btn-icon" id="btnStop" title="停止">⏹</button>
+          <span class="time-display" id="timeDisplay">00:00 / 00:00</span>
+        </div>
+        <div class="progress-bar" id="progressBar">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <button class="btn btn-tool" id="btnImport">📁 导入</button>
+        <button class="btn btn-tool" id="btnTrim">✂️ 裁剪</button>
+        <button class="btn btn-tool" id="btnFilter">🎨 滤镜</button>
+        <button class="btn btn-tool" id="btnSpeed">⏩ 变速</button>
+        <button class="btn btn-tool" id="btnExport">💾 导出</button>
+      </div>
+    </div>
+    <div class="panel" id="trimPanel" style="display:none">
+      <h3>裁剪视频</h3>
+      <div class="range-group">
+        <label>起始时间 (秒)</label>
+        <input type="range" id="trimStart" min="0" max="100" value="0">
+        <span id="trimStartVal">0</span>
+      </div>
+      <div class="range-group">
+        <label>结束时间 (秒)</label>
+        <input type="range" id="trimEnd" min="0" max="100" value="100">
+        <span id="trimEndVal">100</span>
+      </div>
+      <div class="panel-actions">
+        <button class="btn btn-primary" id="btnApplyTrim">应用裁剪</button>
+        <button class="btn" id="btnCancelTrim">取消</button>
+      </div>
+    </div>
+    <div class="panel" id="filterPanel" style="display:none">
+      <h3>滤镜效果</h3>
+      <div class="filter-grid">
+        <button class="btn btn-filter active" data-filter="none">原始</button>
+        <button class="btn btn-filter" data-filter="grayscale(100%)">黑白</button>
+        <button class="btn btn-filter" data-filter="sepia(100%)">复古</button>
+        <button class="btn btn-filter" data-filter="contrast(150%)">高对比</button>
+        <button class="btn btn-filter" data-filter="brightness(130%)">明亮</button>
+        <button class="btn btn-filter" data-filter="saturate(200%)">饱和</button>
+        <button class="btn btn-filter" data-filter="hue-rotate(90deg)">色相偏移</button>
+        <button class="btn btn-filter" data-filter="invert(100%)">反色</button>
+      </div>
+      <div class="panel-actions">
+        <button class="btn" id="btnCancelFilter">关闭</button>
+      </div>
+    </div>
+    <div class="panel" id="speedPanel" style="display:none">
+      <h3>播放速度</h3>
+      <div class="speed-options">
+        <button class="btn btn-speed" data-speed="0.25">0.25x</button>
+        <button class="btn btn-speed" data-speed="0.5">0.5x</button>
+        <button class="btn btn-speed active" data-speed="1">1x</button>
+        <button class="btn btn-speed" data-speed="1.5">1.5x</button>
+        <button class="btn btn-speed" data-speed="2">2x</button>
+      </div>
+      <div class="panel-actions">
+        <button class="btn" id="btnCancelSpeed">关闭</button>
+      </div>
+    </div>
+    <input type="file" id="fileInput" accept="video/*" style="display:none">
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
