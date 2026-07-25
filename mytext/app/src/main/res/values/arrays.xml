@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 文字颜色（与 strings.xml 中 color_names 对应） -->
+    <array name="text_colors">
+        <item>@color/c_white</item>
+        <item>@color/c_red</item>
+        <item>@color/c_orange</item>
+        <item>@color/c_yellow</item>
+        <item>@color/c_green</item>
+        <item>@color/c_cyan</item>
+        <item>@color/c_blue</item>
+        <item>@color/c_purple</item>
+        <item>@color/c_pink</item>
+    </array>
+
+    <!-- 背景颜色（与 strings.xml 中 color_names 复用） -->
+    <array name="bg_colors">
+        <item>@color/black</item>
+        <item>@color/c_red_dark</item>
+        <item>@color/c_orange_dark</item>
+        <item>@color/c_yellow_dark</item>
+        <item>@color/c_green_dark</item>
+        <item>@color/c_cyan_dark</item>
+        <item>@color/c_blue_dark</item>
+        <item>@color/c_purple_dark</item>
+        <item>@color/c_pink_dark</item>
+    </array>
+</resources>

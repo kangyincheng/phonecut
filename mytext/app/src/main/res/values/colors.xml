@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_main">#0F1115</color>
+    <color name="bg_card">#1B1F26</color>
+    <color name="accent">#FF5722</color>
+    <color name="accent_2">#03A9F4</color>
+    <color name="text_primary">#ECEFF4</color>
+    <color name="text_secondary">#9AA4B2</color>
+    <color name="divider">#2A2F3A</color>
+
+    <!-- 文字颜色调色板（与 color_names 对应） -->
+    <color name="c_white">#FFFFFF</color>
+    <color name="c_red">#FF3B30</color>
+    <color name="c_orange">#FF9500</color>
+    <color name="c_yellow">#FFCC00</color>
+    <color name="c_green">#34C759</color>
+    <color name="c_cyan">#00E5FF</color>
+    <color name="c_blue">#0A84FF</color>
+    <color name="c_purple">#BF5AF2</color>
+    <color name="c_pink">#FF2D92</color>
+
+    <!-- 深色背景调色板（让大字在远距离更醒目） -->
+    <color name="c_red_dark">#1A0B0B</color>
+    <color name="c_orange_dark">#1A1207</color>
+    <color name="c_yellow_dark">#1A1707</color>
+    <color name="c_green_dark">#07140B</color>
+    <color name="c_cyan_dark">#07161A</color>
+    <color name="c_blue_dark">#07101A</color>
+    <color name="c_purple_dark">#14071A</color>
+    <color name="c_pink_dark">#1A0714</color>
+</resources>

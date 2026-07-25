@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 跑马灯单次滚动时长（毫秒）。文字越长，时长越长。 -->
+    <integer name="marquee_duration">6000</integer>
+</resources>

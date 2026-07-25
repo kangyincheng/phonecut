@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">演唱会大字</string>
+
+    <!-- MainActivity -->
+    <string name="hint_input">在这里输入要显示的文字…</string>
+    <string name="label_font">字体风格</string>
+    <string name="label_effect">显示特效</string>
+    <string name="label_color">文字颜色</string>
+    <string name="label_bg_color">背景颜色</string>
+    <string name="label_text_size">字体大小</string>
+    <string name="label_tts">同步朗读（TTS）</string>
+    <string name="label_music">背景音乐</string>
+    <string name="label_loop">循环朗读</string>
+    <string name="btn_start">开始展示</string>
+    <string name="btn_preview">预览</string>
+
+    <!-- DisplayActivity -->
+    <string name="tap_to_exit">点击屏幕退出</string>
+
+    <!-- Font style names -->
+    <string-array name="font_styles">
+        <item>默认无衬线</item>
+        <item>粗体无衬线</item>
+        <item>衬线体（宋体风格）</item>
+        <item>等宽体（Monospace）</item>
+        <item>斜体无衬线</item>
+        <item>粗斜体</item>
+    </string-array>
+
+    <!-- Effect names -->
+    <string-array name="effect_styles">
+        <item>静态发光</item>
+        <item>呼吸脉冲（缩放）</item>
+        <item>霓虹闪烁</item>
+        <item>彩虹渐变</item>
+        <item>向左滚动</item>
+        <item>向右滚动</item>
+        <item>向上滚动</item>
+        <item>向下滚动</item>
+        <item>跳动出现</item>
+    </string-array>
+
+    <!-- Color names -->
+    <string-array name="color_names">
+        <item>白色</item>
+        <item>红色</item>
+        <item>橙色</item>
+        <item>黄色</item>
+        <item>绿色</item>
+        <item>青色</item>
+        <item>蓝色</item>
+        <item>紫色</item>
+        <item>粉色</item>
+    </string-array>
+
+    <!-- Music names -->
+    <string-array name="music_names">
+        <item>无音乐</item>
+        <item>内置：节奏一</item>
+        <item>内置：节奏二</item>
+        <item>内置：节奏三</item>
+    </string-array>
+</resources>
